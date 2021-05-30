@@ -28,7 +28,7 @@ class MainActivity3 : AppCompatActivity() {
             txtmsg.setTextColor(Color.BLACK)
             cont=cont+soma
             cont2=cont2+1
-            startActivity<MainActivity10>()
+            startActivity<MainActivity4>()
         }
 
         btn1.setOnClickListener {
@@ -36,7 +36,7 @@ class MainActivity3 : AppCompatActivity() {
             txtmsg.text = "RESPOSTA ERRADA !!!"
             txtmsg.setTextColor(Color.WHITE)
             cont2=cont2+1
-            startActivity<MainActivity10>()
+            startActivity<MainActivity4>()
         }
 
         btn2.setOnClickListener {
@@ -44,7 +44,7 @@ class MainActivity3 : AppCompatActivity() {
             txtmsg.text = "RESPOSTA ERRADA !!!"
             txtmsg.setTextColor(Color.WHITE)
             cont2=cont2+1
-            startActivity<MainActivity10>()
+            startActivity<MainActivity4>()
         }
 
         btn3.setOnClickListener {
@@ -52,7 +52,7 @@ class MainActivity3 : AppCompatActivity() {
             txtmsg.text = "RESPOSTA ERRADA !!!"
             txtmsg.setTextColor(Color.WHITE)
             cont2=cont2+1
-            startActivity<MainActivity10>()
+            startActivity<MainActivity4>()
         }
 
         btn_parar.setOnClickListener{

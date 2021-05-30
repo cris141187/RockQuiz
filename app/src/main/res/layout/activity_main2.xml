@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:id="@+id/linearlayout"
-    android:background="@drawable/fundoquiz"
+    android:background="@drawable/fundorock"
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -18,15 +18,16 @@
         <TextView
             android:id="@+id/txtQuestion"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="192dp"
             android:layout_gravity="center"
-            android:textSize="40dp"
-            android:textColor="@color/purple_500"
-            android:textStyle="bold"
             android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="EM QUE ANO MORREU AMY WINEHOUSE?"
             android:textAlignment="center"
-            android:text="Como se diz DEUS em inglês?" />
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
@@ -34,28 +35,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="Gold" />
+        android:text="2008" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="Good" />
+        android:text="2010" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="God" />
+        android:text="2011" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="Gool" />
+        android:text="2009" />
 
     <TextView
         android:id="@+id/txtmsg"

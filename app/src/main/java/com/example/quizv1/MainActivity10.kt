@@ -1,6 +1,7 @@
 package com.example.quizv1
 
 import android.content.Intent
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -26,6 +27,7 @@ class MainActivity10 : AppCompatActivity() {
         btn_inicio.setOnClickListener {
             0.also { cont = it }
             0.also { cont2 = it }
+            player.stop()
             startActivity<MainActivity1>()
         }
     }

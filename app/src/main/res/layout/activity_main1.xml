@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundoquiz"
+    android:background="@drawable/fundorock"
     tools:context=".MainActivity1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="20dp"
         tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="105dp">
 
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:textSize="30dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:text="Usuário:" />
 
@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textSize="25dp"
-            android:background="@color/teal_200"
+            android:hint="Digite Usuário Aqui:"
+            android:background="@color/yellow"
             android:inputType="textPersonName" />
 
         <TextView
@@ -38,7 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:text="Senha:" />
 
@@ -46,32 +48,39 @@
             android:id="@+id/txt_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:background="@color/yellow"
             android:ems="10"
+            android:hint="Digite Senha Aqui:"
             android:textSize="25dp"
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/login"
+            android:backgroundTint="@color/black"
+            android:background="@color/black"
             android:textColor="@color/white"
-            android:text="@string/login" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txt_Resultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/yellow"
             android:textStyle="bold"
             android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="251dp"
-            app:srcCompat="@android:drawable/ic_lock_lock" />
+            android:layout_height="150dp"
+            android:layout_marginTop="170dp"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
