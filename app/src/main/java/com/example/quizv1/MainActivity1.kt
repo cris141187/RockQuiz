@@ -26,7 +26,7 @@ class MainActivity1 : AppCompatActivity() {
         btn_login.setOnClickListener{
             nome = txt_login.getText().toString()
             var Senha: String = txt_senha.getText().toString()
-            if ((nome == "Cristiano" || nome == "Adriana" || nome == "Guilherme" || nome == "Fernando") && (Senha == "fatec")){
+            if ((nome == "Cristiano" || nome == "Adriana" || nome == "Guilherme" || nome == "Fernando" || nome == "Pedro") && (Senha == "fatec")){
                 txt_Resultado.text= "Login Efetuado com Sucesso"
                 startActivity<MainActivity>()
             }else{
